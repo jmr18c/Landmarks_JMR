@@ -12,6 +12,7 @@ struct Landmarks_JMRApp: App {
     var body: some Scene {
         WindowGroup {
             LandmarkList()
+                .environmentObject(UserData())
         }
     }
 }
