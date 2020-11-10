@@ -1,182 +1,182 @@
 [
     {
-        "name": "Turtle Rock",
-        "category": "Rivers",
-        "city": "Twentynine Palms",
-        "state": "California",
+        "name": "Jacob's Dream",
+        "category": "ACU Campus",
+        "city": "Abilene",
+        "state": "Texas",
         "id": 1001,
         "isFeatured": true,
         "isFavorite": true,
-        "park": "Joshua Tree National Park",
+        "park": "Abilene Christian University",
         "coordinates": {
-            "longitude": -116.166868,
-            "latitude": 34.011286
+            "longitude": -99.7065,
+            "latitude": 32.4684
         },
-        "imageName": "turtlerock"
+        "imageName": "jacobsdream"
     },
     {
-        "name": "Silver Salmon Creek",
-        "category": "Lakes",
-        "city": "Port Alsworth",
-        "state": "Alaska",
+        "name": "Mabee Business Building",
+        "category": "ACU Campus",
+        "city": "Abilene",
+        "state": "Texas",
         "id": 1002,
         "isFeatured": false,
         "isFavorite": false,
-        "park": "Lake Clark National Park and Preserve",
+        "park": "Abilene Christian University",
         "coordinates": {
-            "longitude": -152.665167,
-            "latitude": 59.980167
+            "longitude": -99.7069,
+            "latitude": 32.4678
         },
-        "imageName": "silversalmoncreek"
+        "imageName": "mabeebusiness"
     },
     {
-        "name": "Chilkoot Trail",
-        "category": "Mountains",
-        "city": "Skagway",
-        "state": "Alaska",
+        "name": "Wildcat Stadium",
+        "category": "ACU Campus",
+        "city": "Abilene",
+        "state": "Texas",
         "id": 1003,
         "isFeatured": false,
         "isFavorite": true,
-        "park": "Klondike Gold Rush National Historical Park",
+        "park": "Abilene Christian University",
         "coordinates": {
-            "longitude": -135.334571,
-            "latitude": 59.560551
+            "longitude": -99.7089,
+            "latitude": 32.4736
         },
-        "imageName": "chilkoottrail"
+        "imageName": "wildcatstadium"
     },
     {
-        "name": "St. Mary Lake",
-        "category": "Lakes",
-        "city": "Browning",
-        "state": "Montana",
+        "name": "Brown Library",
+        "category": "ACU Campus",
+        "city": "Abilene",
+        "state": "Texas",
         "id": 1004,
-        "isFeatured": true,
-        "isFavorite": true,
-        "park": "Glacier National Park",
-        "coordinates": {
-            "longitude": -113.536248,
-            "latitude": 48.69423
-        },
-        "imageName": "stmarylake"
-    },
-    {
-        "name": "Twin Lake",
-        "category": "Lakes",
-        "city": "Twin Lakes",
-        "state": "Alaska",
-        "id": 1005,
         "isFeatured": false,
         "isFavorite": false,
-        "park": "Lake Clark National Park and Preserve",
+        "park": "Abilene Christian University",
         "coordinates": {
-            "longitude": -153.849883,
-            "latitude": 60.641684
+            "longitude": -99.7096,
+            "latitude": 32.4690
         },
-        "imageName": "twinlake"
+        "imageName": "brownlibrary"
     },
     {
-        "name": "Lake McDonald",
-        "category": "Mountains",
-        "city": "West Glacier",
-        "state": "Montana",
+        "name": "The Mill",
+        "category": "Abilene Cool Spots",
+        "city": "Abilene",
+        "state": "Texas",
+        "id": 1005,
+        "isFeatured": true,
+        "isFavorite": true,
+        "park": "Abilene City Limits",
+        "coordinates": {
+            "longitude": -99.7297,
+            "latitude": 32.4465
+        },
+        "imageName": "themill"
+    },
+    {
+        "name": "The Grace",
+        "category": "Abilene Cool Spots",
+        "city": "Abilene",
+        "state": "Texas",
         "id": 1006,
         "isFeatured": false,
         "isFavorite": false,
-        "park": "Glacier National Park",
+        "park": "Abilene City Limits",
         "coordinates": {
-            "longitude": -113.934831,
-            "latitude": 48.56002
+            "longitude": -99.7345,
+            "latitude": 32.4499
         },
-        "imageName": "lakemcdonald"
+        "imageName": "thegrace"
     },
     {
-        "name": "Charley Rivers",
-        "category": "Rivers",
-        "city": "Eaking",
-        "state": "Alaska",
+        "name": "Beltway Park Church",
+        "category": "Abilene Cool Spots",
+        "city": "Abilene",
+        "state": "Texas",
         "id": 1007,
         "isFeatured": true,
-        "isFavorite": false,
-        "park": "Charley Rivers National Preserve",
+        "isFavorite": true,
+        "park": "Abilene Area",
         "coordinates": {
-            "longitude": -143.122586,
-            "latitude": 65.350021
+            "longitude": -99.7759,
+            "latitude": 32.3503
         },
-        "imageName": "charleyrivers",
+        "imageName": "beltwaypark",
     },
     {
-        "name": "Icy Bay",
-        "category": "Mountains",
-        "city": "Icy Bay",
-        "state": "Alaska",
+        "name": "The Shed Market",
+        "category": "Abilene Cool Spots",
+        "city": "Abilene",
+        "state": "Texas",
         "id": 1008,
         "isFeatured": false,
-        "isFavorite": false,
-        "park": "Wrangell-St. Elias National Park and Preserve",
+        "isFavorite": true,
+        "park": "Abilene Area",
         "coordinates": {
-            "longitude": -141.518167,
-            "latitude": 60.089917
+            "longitude": -99.7763,
+            "latitude": 32.3719
         },
-        "imageName": "icybay"
+        "imageName": "shedmarket"
     },
     {
-        "name": "Rainbow Lake",
-        "category": "Lakes",
-        "city": "Willow",
-        "state": "Alaska",
+        "name": "Mansfield Park",
+        "category": "Hometown Places",
+        "city": "Bandera",
+        "state": "Texas",
         "id": 1009,
         "isFeatured": false,
         "isFavorite": false,
-        "park": "State Recreation Area",
+        "park": "Bandera Area",
         "coordinates": {
-            "longitude": -150.086103,
-            "latitude": 61.694334
+            "longitude": -99.1043,
+            "latitude": 29.7326
         },
-        "imageName": "rainbowlake"
+        "imageName": "mansfieldpark"
     },
     {
-        "name": "Hidden Lake",
-        "category": "Lakes",
-        "city": "Newhalem",
-        "state": "Washington",
+        "name": "Bandera City River Park",
+        "category": "Hometown Places",
+        "city": "Bandera",
+        "state": "Texas",
         "id": 1010,
-        "isFeatured": false,
-        "isFavorite": false,
-        "park": "North Cascades National Park",
+        "isFeatured": true,
+        "isFavorite": true,
+        "park": "Bandera City Limits",
         "coordinates": {
-            "longitude": -121.17799,
-            "latitude": 48.495442
+            "longitude": -99.0719,
+            "latitude": 29.7210
         },
-        "imageName": "hiddenlake"
+        "imageName": "banderariver"
     },
     {
-        "name": "Chincoteague",
-        "category": "Rivers",
-        "city": "Chincoteague",
-        "state": "Virginia",
+        "name": "The Apple Store",
+        "category": "Hometown Places",
+        "city": "Medina",
+        "state": "Texas",
         "id": 1011,
         "isFeatured": false,
-        "isFavorite": false,
-        "park": "Chincoteague National Wildlife Refuge",
+        "isFavorite": true,
+        "park": "Bandera Area",
         "coordinates": {
-            "longitude": -75.383212,
-            "latitude": 37.91531
+            "longitude": -99.2497,
+            "latitude": 29.7982
         },
-        "imageName": "chincoteague"
+        "imageName": "applestore"
     },
     {
-        "name": "Lake Umbagog",
-        "category": "Lakes",
-        "city": "Errol",
-        "state": "New Hampshire",
+        "name": "O.S.T.",
+        "category": "Hometown Places",
+        "city": "Bandera",
+        "state": "Texas",
         "id": 1012,
         "isFeatured": true,
-        "isFavorite": false,
-        "park": "Umbagog National Wildlife Refuge",
+        "isFavorite": true,
+        "park": "Bandera City Limits",
         "coordinates": {
-            "longitude": -71.056816,
-            "latitude": 44.747408
+            "longitude": -99.0712,
+            "latitude": 29.7245
         },
-        "imageName": "umbagog"
+        "imageName": "ost"
     }
 ]

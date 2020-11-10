@@ -18,16 +18,27 @@ struct Landmark: Hashable, Codable, Identifiable {
     var category: Category
     var isFavorite: Bool
     var isFeatured: Bool
+
     var locationCoordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(
             latitude: coordinates.latitude,
             longitude: coordinates.longitude)
     }
+    
+    var featureImage: Image? {
+        guard isFeatured else { return nil }
+        
+        return Image(
+            ImageStore.loadImage(name: "\(imageName)_feature"),
+            scale: 2,
+            label: Text(name))
+    }
 
     enum Category: String, CaseIterable, Codable, Hashable {
         case featured = "Featured"
-        case lakes = "Lakes"
-        case rivers = "Rivers"
+        case acuCampus = "ACU Campus"
+        case abileneCS = "Abilene Cool Spots"
+        case hometownPlaces = "Hometown Places"
     }
 }
 
@@ -40,10 +51,4 @@ extension Landmark {
 struct Coordinates: Hashable, Codable {
     var latitude: Double
     var longitude: Double
-}
-
-struct Landmark_Previews: PreviewProvider {
-    static var previews: some View {
-        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
-    }
 }
