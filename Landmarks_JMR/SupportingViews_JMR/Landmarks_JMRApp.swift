@@ -16,3 +16,9 @@ struct Landmarks_JMRApp: App {
         }
     }
 }
+
+struct Landmarks_JMRApp_Previews: PreviewProvider {
+    static var previews: some View {
+        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
+    }
+}

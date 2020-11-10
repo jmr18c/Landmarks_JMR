@@ -13,9 +13,9 @@ struct Profile {
     var seasonalPhoto: Season
     var goalDate: Date
     
-    static let `default` = Self(username: "g_kumar", prefersNotifications: true, seasonalPhoto: .winter)
+    static let `default` = Self(username: "jraitz00", prefersNotifications: true, seasonalPhoto: .spring)
     
-    init(username: String, prefersNotifications: Bool = true, seasonalPhoto: Season = .winter) {
+    init(username: String, prefersNotifications: Bool = true, seasonalPhoto: Season = .spring) {
         self.username = username
         self.prefersNotifications = prefersNotifications
         self.seasonalPhoto = seasonalPhoto
