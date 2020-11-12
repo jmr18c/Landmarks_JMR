@@ -19,7 +19,8 @@ struct ProfileEditor: View {
     var body: some View {
         List {
             HStack {
-                Text("Username").bold()
+                Text("Username")
+                    .bold()
                 Divider()
                 TextField("Username", text: $profile.username)
             }
@@ -29,7 +30,8 @@ struct ProfileEditor: View {
             }
             
             VStack(alignment: .leading, spacing: 20) {
-                Text("Seasonal Photo").bold()
+                Text("Seasonal Photo")
+                    .bold()
                 
                 Picker("Seasonal Photo", selection: $profile.seasonalPhoto) {
                     ForEach(Profile.Season.allCases, id: \.self) { season in
@@ -41,7 +43,8 @@ struct ProfileEditor: View {
             .padding(.top)
             
             VStack(alignment: .leading, spacing: 20) {
-                Text("Goal Date").bold()
+                Text("Goal Date")
+                    .bold()
                 DatePicker(
                     "Goal Date",
                     selection: $profile.goalDate,
